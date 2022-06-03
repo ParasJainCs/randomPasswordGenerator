@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="index.js"></script>
+  <title>Password Generator</title>
+</head>
+<body>
+  <div class="main">
+    <div class="input">
+      <div class="text">
+        <h1 class="first">Generate a</h1>
+        <h1 class="second">random password</h1>
+        <p class="someText">Never use an insecure password again!</p>
+        <button onclick="displayPasswords()">Generate Passwords</button>
+        <input class="hidden" type="text"></input>
+        <input class="hidden" type="text"></input>
+        <input class="hidden" type="text"></input>
+        <input class="hidden" type="text"></input>
+      </div>
+    </div>
+    <div class="output">
+      <div class="text">
+        <h1 class="first">Generated</h1>
+        <h1 class="second">random passwords</h1>
+        <p class="someText someText2">Never use an insecure password again!</p>
+        <input class="displayed" id="a1" type="text"></input>
+        <input class="displayed" id="a2" type="text"></input>
+        <input class="displayed" id="a3" type="text"></input>
+        <input class="displayed" id="a4" type="text"></input>
+        <p class="generatedPassword"></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
